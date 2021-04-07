@@ -4,3 +4,5 @@ src/tests/
 src/.DS_Store
 src/styles/.DS_Store
 src/components/.DS_Store
+public/bundle.js
+public/styles.css
