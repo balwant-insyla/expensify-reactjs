@@ -1,1 +1,6 @@
+.DS_Store
 node_modules/
+src/tests/
+src/.DS_Store
+src/styles/.DS_Store
+src/components/.DS_Store

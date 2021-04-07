@@ -5,6 +5,10 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: $m-size;
 }
+body > div {
+    width:85%;
+    margin: 0 auto;
+}
 button {
     cursor: pointer;
 }
