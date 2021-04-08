@@ -1,4 +1,4 @@
-import React from 'React'
+import React from 'react'
 import moment from 'moment'
 import { Link } from 'react-router-dom'
 import numeral from 'numeral'
