@@ -34,9 +34,17 @@ module.exports = (env) =>{
                     {
                         loader: 'css-loader',
                         options: {
-                            sourceMap: true
+                            sourceMap: true,
+                            //path: path.resolve(__dirname, 'public/images'),
+                            publicPath: '/images/'
                         }
                     },
+                    { 
+                        loader: 'resolve-url-loader',
+                         options: { 
+                             sourceMap: true 
+                            } 
+                        },
                     {
                         loader: 'sass-loader',
                         options: {
